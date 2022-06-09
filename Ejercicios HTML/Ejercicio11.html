@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <form>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" pattern="[A-ZÑÁ-Úa-zñá-ú]{3,}">
+        <br>
+        <label for="apellidos">Apellidos:</label>
+        <input type="text" id="apellidos" name="apellidos" pattern="[A-ZÑÁ-Úa-zñá-ú]+\s[A-ZÑÁ-Úa-zñá-ú]+">
+        <br>
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" pattern="[^@^\s]{3,}@[^@^\s]{5,}\.\w{2,3}">
+        <br>
+        <label for="fechaNacimiento">Fecha de nacimiento:</label>
+        <input type="date">
+        <!-- Imput tipo date ya exige el formato DD/MM/AAAA. Igualmente, sería pattern="\d{2}\/\d{2}\/\d{4}"-->
+        <br>
+        <button>Enviar</button>
+
+    </form>
+</body>
+
+</html>

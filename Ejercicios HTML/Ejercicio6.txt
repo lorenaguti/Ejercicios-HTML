@@ -1,0 +1,4 @@
+No se recomienda porque los elementos en bloque necesitan usar toda la línea porque su contenido lo requiere,
+y aunque se puede reducir el texto del párrafo desde el navegador y se puede confirmar que es un elemento bloque
+cuando se recargue la web, el navegador volverá a leer el código HTLM del fichero original y borrará cambios que hemos
+realiado directamente en el HTML.
